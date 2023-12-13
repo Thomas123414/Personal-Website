@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+*{
+    font-family: var(--Font);
+}
+
+:root {
+    --Font: 'Hedvig Letters Serif', serif;
+    --Blue: #0ad5ec;
+    --Yellow: #ffff00;
+    --limegreen: #32cd32;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #282a2b;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--limegreen); 
+    font-weight:  bold;
+}
+
+nav a:visited {
+    color: var(--limegreen);
+}
