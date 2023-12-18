@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Source+Code+Pro:ital@1&display=swap');
 
 *{
     font-family: var(--Font);
 }
 
 :root {
-    --Font: 'Hedvig Letters Serif', serif;
+    --Font: 'Source Code Pro', monospace;;
     --Blue: #0ad5ec;
     --Yellow: #ffff00;
     --limegreen: #32cd32;
