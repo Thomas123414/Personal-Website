@@ -23,7 +23,7 @@ nav {
     display: flex;
     justify-content: space-around;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     left: 0;
     top: 0;
     padding-top: 8px;
@@ -38,4 +38,18 @@ nav a {
 
 nav a:visited {
     color: var(--limegreen);
+}
+
+#img {
+display: flex;
+}
+
+#background {
+    z-index: 1;
+    left: 0;
+    flex: cover;
+}
+
+#STT {
+    z-index: 2;
 }
