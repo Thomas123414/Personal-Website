@@ -15,11 +15,11 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #282a2b;
+    background-color: #212529;
 }
 
 nav {
-    background-color: #282a2b;
+    background-color: #212529;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -49,7 +49,7 @@ nav a:visited {
 .image-section {
     position: relative;
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
 }
 
 #img {
@@ -72,4 +72,25 @@ nav a:visited {
 #STT h1 {
     margin: 0;
     font-size: 3em; /* Adjust the font size as needed */
+}
+
+#Protitle {
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: var(--limegreen);
+    font-size: xx-large;
+}
+
+#Pro1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Proimg {
+    width: 25%;
+} 
+
+#Pro1info {
+    color: white;
 }
