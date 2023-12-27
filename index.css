@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Source+Code+Pro:ital@1&display=swap');
 
-*{
+* {
     font-family: var(--Font);
 }
 
 :root {
-    --Font: 'Source Code Pro', monospace;;
+    --Font: 'Source Code Pro', monospace;
     --Blue: #0ad5ec;
     --Yellow: #ffff00;
     --limegreen: #32cd32;
@@ -15,6 +15,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #282a2b;
 }
 
 nav {
@@ -32,24 +33,43 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--limegreen); 
-    font-weight:  bold;
+    color: var(--limegreen);
+    font-weight: bold;
 }
 
 nav a:visited {
     color: var(--limegreen);
 }
 
-#img {
-display: flex;
+#Frontpage {
+    position: relative;
+    display: flex;
 }
 
-#background {
-    z-index: 1;
-    left: 0;
-    flex: cover;
+.image-section {
+    position: relative;
+    width: 100vw;
+    height: 85vh;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #STT {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
     z-index: 2;
+    color: white; /* Change the text color as needed */
+    text-align: center;
+    background-color: none;
+}
+
+#STT h1 {
+    margin: 0;
+    font-size: 3em; /* Adjust the font size as needed */
 }
