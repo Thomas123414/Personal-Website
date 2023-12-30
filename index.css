@@ -72,10 +72,30 @@ nav a:visited {
     font-size: 3em; /* Adjust the font size as needed */
 }
 
+#Aboutme {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+#Aminfo {
+    margin-top: 30px;
+    width: 400px;
+    font-size: x-large;
+}
+
+#Aminfo h1, h3{
+    color: var(--limegreen);
+}
+
+#Aminfo p {
+    color: white;
+}
+
 #Protitle {
     padding-left: 30px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     color: var(--limegreen);
     font-size: xx-large;
 }
@@ -83,12 +103,24 @@ nav a:visited {
 #Pro1 {
     display: flex;
     justify-content: space-around;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #Proimg {
     width: 25%;
+    margin-right: 25px;
 } 
 
 #Pro1info {
+    
+}
+
+#Pro1info h1 {
+    color: var(--limegreen);
+}
+
+#Pro1info p {
     color: white;
 }
