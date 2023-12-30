@@ -113,8 +113,8 @@ nav a:visited {
     margin-right: 25px;
 } 
 
-#Pro1info {
-    
+#Pro1info a {
+    color: var(--limegreen);
 }
 
 #Pro1info h1 {
@@ -123,4 +123,21 @@ nav a:visited {
 
 #Pro1info p {
     color: white;
+}
+
+#footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer a {
+    display: flex;
+    justify-content: space-around;
+    color: var(--limegreen);
+    text-decoration: none;
+}
+
+#footer a:visited {
+    color: var(--limegreen);
 }
