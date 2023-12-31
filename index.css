@@ -3,6 +3,7 @@
 
 * {
     font-family: var(--Font);
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -44,6 +45,10 @@ nav a:visited {
 #Frontpage {
     position: relative;
     display: flex;
+    background-image: url("Premium\ Photo\ _\ Programmer\ working\ on\ laptop\ computer\ in\ office\ studio.jpeg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw;
 }
 
 .image-section {
@@ -92,6 +97,11 @@ nav a:visited {
     color: white;
 }
 
+#Skills {
+    font-weight: bolder;
+    color: var(--limegreen);
+}
+
 #Protitle {
     padding-left: 30px;
     padding-top: 25px;
@@ -125,6 +135,7 @@ nav a:visited {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
+    background-color: #40444a;
 }
 
 #footer a {
@@ -137,3 +148,7 @@ nav a:visited {
 #footer a:visited {
     color: var(--limegreen);
 }
+
+ion-icon {
+    font-size: 64px;
+  }
