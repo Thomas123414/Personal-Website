@@ -113,11 +113,7 @@ nav a:visited {
     margin-right: 25px;
 } 
 
-#Pro1info a {
-    color: var(--limegreen);
-}
-
-#Pro1info h1 {
+#Pro1info a, h1 {
     color: var(--limegreen);
 }
 
