@@ -159,3 +159,51 @@ nav a:visited {
 ion-icon {
     font-size: 64px;
   }
+
+@media only screen and (max-width: 500px) {
+    #Aboutme {
+        display: flex;
+        justify-content: space-around;
+        height: 300px;
+    }
+    
+    #Aminfo {
+        margin-top: 30px;
+        width: 200px;
+        font-size: small;
+    }
+
+    #Aboutme img {
+        width: 125px;
+    }
+
+    #Protitle {
+        padding-left: 30px;
+        padding-top: 25px;
+        padding-bottom: 5px;
+        color: var(--limegreen);
+        font-size: large;
+    }
+    
+    #Pro1 {
+        display: flex;
+        justify-content: space-around;
+        height: 200px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    #Proimg {
+        width: 40%;
+        margin-right: 5px;
+        height: 245px;
+    } 
+
+    #Pro1info {
+        height: 100%;
+        font-size: 13px;
+    }
+    #footer a {
+        font-size: 11px;
+    }
+}
