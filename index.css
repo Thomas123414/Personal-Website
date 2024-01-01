@@ -45,10 +45,14 @@ nav a:visited {
 #Frontpage {
     position: relative;
     display: flex;
-    background-image: url("Premium\ Photo\ _\ Programmer\ working\ on\ laptop\ computer\ in\ office\ studio.jpeg");
-    background-position: fixed;
+    /* Changed background image, reason is image's quality wasn't high enough */
+    background-image: url("betterimage.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw;
+    /* Adding parallax to image */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .image-section {
@@ -136,7 +140,10 @@ nav a:visited {
     display: flex;
     justify-content: space-around;
     background-color: #40444a;
+    padding: 10px 0; /* Short hand syntax to set top/bottom padding (both now 10) and left and right to 0px */
+
 }
+
 
 #footer a {
     display: flex;
