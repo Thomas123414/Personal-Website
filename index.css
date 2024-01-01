@@ -160,7 +160,7 @@ ion-icon {
     font-size: 64px;
   }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 690px) {
     #Aboutme {
         display: flex;
         justify-content: space-around;
