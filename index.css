@@ -81,6 +81,10 @@ nav a:visited {
     font-size: 3em; /* Adjust the font size as needed */
 }
 
+#time {
+    padding-top: 150px;
+}
+
 #Aboutme {
     display: flex;
     justify-content: space-around;
@@ -160,6 +164,11 @@ ion-icon {
 }
 
 @media only screen and (max-width: 690px) {
+    #time {
+        font-size: small;
+        padding-top: 75px;
+    }
+
     #Aboutme {
         display: flex;
         justify-content: space-around;
