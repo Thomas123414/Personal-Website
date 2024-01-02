@@ -50,7 +50,7 @@ function stopWatch() {
 		document.getElementById('min').innerHTML = minString; 
 		document.getElementById('sec').innerHTML = secString; 
 		document.getElementById('count').innerHTML = countString; 
-		setTimeout(stopWatch, 6); 
+		setTimeout(stopWatch, 8); 
 	} 
 }
 
