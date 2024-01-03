@@ -81,7 +81,7 @@ nav a:visited {
     font-size: 3em; /* Adjust the font size as needed */
 }
 
-#time {
+#display {
     padding-top: 150px;
 }
 
@@ -164,7 +164,7 @@ ion-icon {
 }
 
 @media only screen and (max-width: 690px) {
-    #time {
+    #display {
         font-size: small;
         padding-top: 75px;
     }
